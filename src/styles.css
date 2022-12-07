@@ -28,3 +28,17 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.Link__list {
+  list-style: none;
+}
+
+.Link__list-item {
+  text-decoration: none;
+  color:black;
+  cursor: pointer;
+
+  }
+  
+  
+

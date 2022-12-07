@@ -25,7 +25,7 @@ const ColorPicker = ({ options, initialOptionPos = 1 }: Props) => {
     return (
         <div className = "ColorPicker">
             <h2 className = "ColorPicker__title">Color Picker</h2>
-            <p>Color has chosen: {label}</p>
+            <p className="Color__picker-text">Color has chosen: {label}</p>
             <div>
                 {options.map(( { label, color }, index) => (
                  <button
